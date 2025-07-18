@@ -12,7 +12,6 @@ node *rear=NULL;
 void enq(int val){
 	node* newnode = (node*)malloc(sizeof(node));
 	if (newnode == NULL) {
-        cout<<"FAILED TO ALLOCATE MEMORY "<<endl;
         return;
     }
     newnode->data=val;
